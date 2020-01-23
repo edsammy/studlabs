@@ -1,0 +1,105 @@
+
+html, body {
+    height: 100%;
+    display: block;
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #9a063a;
+}
+
+a {
+    border-bottom: 1px dotted #9a063a;
+    text-decoration: none;
+    color: #9a063a;
+}
+
+a:hover {
+    color: #000;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+ol {
+    counter-reset: list;
+}
+
+ol > li {
+    list-style: none;
+}
+
+ol > li:before {
+    content: counter(list, decimal) ") ";
+    counter-increment: list;
+    color:#000000;
+}
+
+li {
+    padding-bottom: 20px; 
+}
+
+#name {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 100px;    
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 8px;
+    
+    width: 240px;
+    height: 170px;
+    background-color: #9a063a;
+    border-radius: 20px;
+    padding: 70px;
+}
+
+.subname {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.col-3 {
+    font-size: 20px;
+    width:128px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div > div > div > img {
+    width:128px;
+    height:128px;
+    margin: auto;
+}
+
+.prin{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#contact > span {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#contact i {
+    color: #000000;
+    padding-right: 10px;
+}
+
+#contact {
+}
