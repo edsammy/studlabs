@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url("./fonts/SourceSansPro-Bold.ttf");
-}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
 
 html, body {
     height: 100%;
